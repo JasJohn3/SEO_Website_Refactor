@@ -199,14 +199,14 @@ main {
     margin-bottom: 20px;
     font-size: 36px;
 }
-
+/* changed .footer to be html element footer */
 footer {
     padding: 30px;
     clear: both;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     text-align: center;
 }
-
+/* changed .footer to be html element footer */
 footer h2 {
     font-size: 20px;
 }
