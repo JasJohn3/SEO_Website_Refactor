@@ -85,8 +85,11 @@ main {
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     background-color: #2589bd;
 }
-
-.benefit-lead {
+.benefit-styling{
+    margin-bottom: 32px;
+    color: #ffffff; 
+}
+/* .benefit-lead {
     margin-bottom: 32px;
     color: #ffffff;
 }
@@ -99,9 +102,13 @@ main {
 .benefit-cost {
     margin-bottom: 32px;
     color: #ffffff;
+} */
+/* Modified three classes into one class to increase code efficiency */
+.benefit-styling h3{
+    margin-bottom: 10px;
+    text-align: center;
 }
-
-.benefit-lead h3 {
+/* .benefit-lead h3 {
     margin-bottom: 10px;
     text-align: center;
 }
@@ -114,9 +121,14 @@ main {
 .benefit-cost h3 {
     margin-bottom: 10px;
     text-align: center;
-}
+} */
 
-.benefit-lead img {
+.benefit-styling img{
+    display: block;
+    margin: 10px auto;
+    max-width: 150px;
+}
+/* .benefit-lead img {
     display: block;
     margin: 10px auto;
     max-width: 150px;
@@ -132,7 +144,7 @@ main {
     display: block;
     margin: 10px auto;
     max-width: 150px;
-}
+} */
 
 .search-engine-optimization {
     margin-bottom: 20px;
