@@ -45,16 +45,16 @@ a {
     color: #ffffff;
     text-decoration: none;
 }
-
+/* modified font size for easier reading */
 p {
     font-size: 16px;
 }
-
+/* Added html img element and removed background image from hero class */
 .hero {
     height: 800px;
     width: 100%;
     margin-bottom: 25px;
-    background-image: url("../images/digital-marketing-meeting.jpg");
+    /* background-image: url("../images/digital-marketing-meeting.jpg"); */
     background-size: cover;
     background-position: center;
 }
