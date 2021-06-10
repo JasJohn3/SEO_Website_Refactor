@@ -85,6 +85,7 @@ main {
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     background-color: #2589bd;
 }
+/* created new class benefits-styling for universal styling of html elements */
 .benefit-styling{
     margin-bottom: 32px;
     color: #ffffff; 
@@ -103,7 +104,7 @@ main {
     margin-bottom: 32px;
     color: #ffffff;
 } */
-/* Modified three classes into one class to increase code efficiency */
+/* created new class benefits-styling for universal styling of html elements */
 .benefit-styling h3{
     margin-bottom: 10px;
     text-align: center;
@@ -122,7 +123,7 @@ main {
     margin-bottom: 10px;
     text-align: center;
 } */
-
+/* created new class benefits-styling for universal styling of html elements */
 .benefit-styling img{
     display: block;
     margin: 10px auto;
@@ -145,7 +146,20 @@ main {
     margin: 10px auto;
     max-width: 150px;
 } */
-
+/* targeted main articles using css selectors instead of classes */
+main article{
+    margin-bottom: 20px;
+    padding: 50px;
+    height: 300px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    background-color: #0072bb;
+    color: #ffffff;
+}
+/* targeted main articles using css selectors instead of classes */
+main article img{
+    max-height: 200px;
+}
+/* 
 .search-engine-optimization {
     margin-bottom: 20px;
     padding: 50px;
@@ -171,9 +185,9 @@ main {
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     background-color: #0072bb;
     color: #ffffff;
-}
+} */
 
-.search-engine-optimization img {
+/* .search-engine-optimization img {
     max-height: 200px;
 }
 
@@ -183,9 +197,13 @@ main {
 
 .social-media-marketing img {
     max-height: 200px;
+} */
+/* targeted main articles using css selectors instead of classes */
+main article h2{
+    margin-bottom: 20px;
+    font-size: 36px;
 }
-
-.search-engine-optimization h2 {
+/* .search-engine-optimization h2 {
     margin-bottom: 20px;
     font-size: 36px;
 }
@@ -198,7 +216,7 @@ main {
 .social-media-marketing h2 {
     margin-bottom: 20px;
     font-size: 36px;
-}
+} */
 /* changed .footer to be html element footer */
 footer {
     padding: 30px;
