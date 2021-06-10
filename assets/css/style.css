@@ -105,7 +105,8 @@ main {
     color: #ffffff;
 } */
 /* created new class benefits-styling for universal styling of html elements */
-.benefit-styling h3{
+/* modified h3 element to be an h2 */
+.benefit-styling h2{
     margin-bottom: 10px;
     text-align: center;
 }
