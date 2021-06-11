@@ -3,9 +3,11 @@
     padding: 0;
     margin: 0;
 }
-
+/* added a width of 1024px and the image matches the requested design */
 body {
+    width: 1024px;
     background-color: #d9dcd6;
+    margin: 0 auto;
 }
 
 header {
