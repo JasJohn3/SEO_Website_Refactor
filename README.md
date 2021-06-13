@@ -2,7 +2,7 @@
 
 ## Code Optimization for Accessibility
 
-The Purpose of this exercise is to demonstrate how to refactor existing code to modern HTML5; elements and increase access to those with disabilities.  Through out the project, most of the original code is commented out for demonstration purposes only to highlight the changes made during the exercise.  These comments can be removed at anytime to make the code more readible.
+The Purpose of this exercise is to demonstrate how to refactor existing code to modern HTML5 elements and increase access to those with disabilities.  Through out the project, most of the original code is commented out for demonstration purposes only to highlight the changes made during the exercise.  These comments can be removed at anytime to make the code more readible.
 
 ## Feature Changes & Highlights
 
