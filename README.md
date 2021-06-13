@@ -121,4 +121,4 @@ header  ul li {
 }
 ```
 ## Conclusion
-Overall this is a valuable exercise that demonstrates the applicability of modern HTML5.
+Overall this is a valuable exercise that demonstrates the applicability of modern HTML5.  Through the use of HTML5 elements, we have more options to use in our CSS and web design.  This increases accessibilty and allows for more readable code as well.
