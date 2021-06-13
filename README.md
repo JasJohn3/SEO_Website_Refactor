@@ -8,7 +8,7 @@ The Purpose of this exercise is to demonstrate how to refactor existing code to 
 
 This segment will include a list of the more prominent changes to increase accessibility.
 
-## `<header>` and `<nav>` elements
+### `<header>` and `<nav>` elements
 This segment shows the use of the `<header>` and `<nav>` elements to create our navbar commonly found on most websites.
   ``` 
       <header>
@@ -29,7 +29,8 @@ This segment shows the use of the `<header>` and `<nav>` elements to create our 
         </nav>
     </header>
   ```
-##`<section>` and `<article>` elements
+### `<section>` and `<article>` elements
+The `<div>` elements that were originally used were replaced with `<section>` and `<article>`.  This allows screen readers to identify these elements separately and also provide the ability to use css selectors in place of class names.
 ``` 
         <section class="benefits">
         <!-- modified div to be article -->
@@ -58,7 +59,8 @@ This segment shows the use of the `<header>` and `<nav>` elements to create our 
         </article>
     </section>
 ```
-## `<footer>` element
+### `<footer>` element
+The `<footer>` element replaced the original `<div>`.
 ``` 
       <footer>
         <h2>Made with ❤️️ by Horiseon</h2>
@@ -68,12 +70,12 @@ This segment shows the use of the `<header>` and `<nav>` elements to create our 
     </footer>
 ```
 
-## Jumbotron/Hero image
-The Jumbotron is one of the major highlight features for accessibility.  Initially, the jumbotron was a <div class="hero">.  This was changed to
+### Jumbotron/Hero image
+The Jumbotron is one of the major highlight features for accessibility.  Initially, the jumbotron was a `<div class="hero">`.  This was changed to
     ```  
         <section ><img src="./assets/images/digital-marketing-meeting.jpg" alt="Four people gather around for an office meeting reviewing documents" class="hero"></section>
     ```
 This modification allows screen readers to be able to read the alt attribute of the image.  Addtionally, the css was modified to exclude the background image and the original `<div>` was changed to a `<section>`
 
-## <main> element
-The <main> element was changed from a <div class="content">
+### `<main>` element
+The `<main>` element was changed from a `<div class="content">`.  This allows for our content to have separation as well as giving the screen reader the ability to define where the main content of the page is located.
