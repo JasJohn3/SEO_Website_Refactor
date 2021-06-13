@@ -1,10 +1,10 @@
 # SEO Website Refactor
 
-## Code optimization for Accessibility
+## Code Optimization for Accessibility
 
 The Purpose of this exercise is to demonstrate how to refactor existing code to modern HTML5 elements and increase access to those with disabilities.  Through out the project, most of the original code is commented out for demonstration purposes only to highlight the changes made during the exercise.  These comments can be removed at anytime to make the code more readible.
 
-## Feature Changes Highlights
+## Feature Changes & Highlights
 
 This segment will include a list of the more prominent changes to increase accessibility.
 
@@ -30,7 +30,7 @@ This segment shows the use of the `<header>` and `<nav>` elements to create our 
     </header>
   ```
 ### `<section>` and `<article>` elements
-The `<div>` elements that were originally used were replaced with `<section>` and `<article>`.  This allows screen readers to identify these elements separately and also provide the ability to use css selectors in place of class names.
+The `<div>` elements that were originally used were replaced with `<section>` and `<article>`.  This allows screen readers to identify these elements separately and also provide the ability to use css element selectors in place of class names.
 ``` 
         <section class="benefits">
         <!-- modified div to be article -->
@@ -79,3 +79,31 @@ This modification allows screen readers to be able to read the alt attribute of 
 
 ### `<main>` element
 The `<main>` element was changed from a `<div class="content">`.  This allows for our content to have separation as well as giving the screen reader the ability to define where the main content of the page is located.
+
+## CSS Optimization
+
+### Refactoring repetive CSS code with Element Selectors and Class Names
+
+There were many areas in witch identical css code was applied to html elements when a single class name would be able to replace these styling options. That reduces the total amount of css code required to style the page.  Here is an example including the original code that was commented out.
+```
+ /* created new class benefits-styling for universal styling of html elements */
+.benefit-styling{
+    margin-bottom: 32px;
+    color: #ffffff; 
+}
+/* .benefit-lead {
+    margin-bottom: 32px;
+    color: #ffffff;
+}
+
+.benefit-brand {
+    margin-bottom: 32px;
+    color: #ffffff;
+}
+
+.benefit-cost {
+    margin-bottom: 32px;
+    color: #ffffff;
+} */
+/* created new class benefits-styling for universal styling of html elements */
+```
