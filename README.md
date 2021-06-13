@@ -8,8 +8,9 @@ The Purpose of this exercise is to demonstrate how to refactor existing code to 
 
 This segment will include a list of the more prominent changes to increase accessibility.
 
-* `<header>` and `<nav>` elements
-  * ``` 
+## `<header>` and `<nav>` elements
+This segment shows the use of the `<header>` and `<nav>` elements to create our navbar commonly found on most websites.
+  ``` 
       <header>
         <h1>Hori<span class="seo">seo</span>n</h1>
         <!-- Modified div to nav and adjusted css references to reflect nav -->
@@ -28,8 +29,8 @@ This segment will include a list of the more prominent changes to increase acces
         </nav>
     </header>
   ```
-* `<section>` and `<article>` elements
-  * ``` 
+##`<section>` and `<article>` elements
+``` 
         <section class="benefits">
         <!-- modified div to be article -->
         <article class="benefit-styling">
@@ -56,23 +57,23 @@ This segment will include a list of the more prominent changes to increase acces
             </p>
         </article>
     </section>
-  ```
-* <footer> element
-  * ``` 
+```
+## `<footer>` element
+``` 
       <footer>
         <h2>Made with ❤️️ by Horiseon</h2>
         <p>
             &copy; 2019 Horiseon Social Solution Services, Inc.
         </p>
     </footer>
-  ```
+```
 
-* Jumbotron/Hero image
-  * The Jumbotron is one of the major highlight features for accessibility.  Initially, the jumbotron was a <div class="hero">.  This was changed to
+## Jumbotron/Hero image
+The Jumbotron is one of the major highlight features for accessibility.  Initially, the jumbotron was a <div class="hero">.  This was changed to
     ```  
         <section ><img src="./assets/images/digital-marketing-meeting.jpg" alt="Four people gather around for an office meeting reviewing documents" class="hero"></section>
     ```
-  This modification allows screen readers to be able to read the alt attribute of the image.  Addtionally, the css was modified to exclude the background image and the original <div> was changed to a <section>
+This modification allows screen readers to be able to read the alt attribute of the image.  Addtionally, the css was modified to exclude the background image and the original `<div>` was changed to a `<section>`
 
-* <main> element
-  * the <main> element was changed from a <div>
+## <main> element
+The <main> element was changed from a <div class="content">
