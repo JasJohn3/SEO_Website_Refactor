@@ -2,7 +2,7 @@
 
 ## Code Optimization for Accessibility
 
-The Purpose of this exercise is to demonstrate how to refactor existing code to modern HTML5 elements and increase access to those with disabilities.  Through out the project, most of the original code is commented out for demonstration purposes only to highlight the changes made during the exercise.  These comments can be removed at anytime to make the code more readible.
+The Purpose of this exercise is to demonstrate how to refactor existing code to modern &icon-html5; elements and increase access to those with disabilities.  Through out the project, most of the original code is commented out for demonstration purposes only to highlight the changes made during the exercise.  These comments can be removed at anytime to make the code more readible.
 
 ## Feature Changes & Highlights
 
@@ -108,7 +108,7 @@ There were many areas in witch identical css code was applied to html elements w
 } */
 /*              Redundant CSS CODE                          */
 ```
-Here is an example of where css element selectors can be used in place of class names.  In this example code, the `<header>` and `<nav>` elements are used as css selectors to ensure no other `<ul>` or `<li>` element is targeted on the page.  This demonstrates the value of using modern html5 elements.
+Here is an example of where css element selectors can be used in place of class names.  In this example code, the `<header>` and `<nav>` elements are used as css selectors to ensure no other `<ul>` or `<li>` element is targeted on the page.  This demonstrates the value of using modern &icon-html5; elements.
 ```
 /* changed class ="header" to be HTML Element header and modified div to be nav */
 header nav ul {
@@ -120,3 +120,5 @@ header  ul li {
     margin-left: 25px;
 }
 ```
+## Conclusion
+Overall this is a valuable exercise that demonstrates the applicability of modern &icon-html5;.
