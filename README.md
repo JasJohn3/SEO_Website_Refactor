@@ -86,11 +86,12 @@ The `<main>` element was changed from a `<div class="content">`.  This allows fo
 
 There were many areas in witch identical css code was applied to html elements when a single class name would be able to replace these styling options. That reduces the total amount of css code required to style the page.  Here is an example including the original code that was commented out.
 ```
- /* created new class benefits-styling for universal styling of html elements */
+/* created new class benefits-styling for universal styling of html elements */
 .benefit-styling{
     margin-bottom: 32px;
     color: #ffffff; 
 }
+/*              Redundant CSS CODE                          */
 /* .benefit-lead {
     margin-bottom: 32px;
     color: #ffffff;
@@ -105,5 +106,17 @@ There were many areas in witch identical css code was applied to html elements w
     margin-bottom: 32px;
     color: #ffffff;
 } */
-/* created new class benefits-styling for universal styling of html elements */
+/*              Redundant CSS CODE                          */
+```
+Here is an example of where css element selectors can be used in place of class names.  In this example code, the `<header>` and `<nav>` elements are used as css selectors to ensure no other `<ul>` or `<li>` element is targeted on the page.  This demonstrates the value of using modern html5 elements.
+```
+/* changed class ="header" to be HTML Element header and modified div to be nav */
+header nav ul {
+    list-style-type: none;
+}
+/* changed class ="header" to be HTML Element header*/
+header  ul li {
+    display: inline-block;
+    margin-left: 25px;
+}
 ```
